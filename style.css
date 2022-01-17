@@ -1,0 +1,26 @@
+.header {
+    overflow: hidden;
+    max-width: 100%;
+    font-size: xx-large;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left {
+    display: flex;
+    align-self: flex-start;
+}
+
+.header-right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.etch-a-sketch {
+    display: grid;
+    width: 720px;
+    height: 720px;
+}
+
+
